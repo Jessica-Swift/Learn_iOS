@@ -1,0 +1,313 @@
+struct ContentView: View {
+
+    @State private var tapCount = 0
+
+    
+
+    var body: some View {
+
+        Button("Tap Count: \(tapCount)") {
+
+            tapCount += 1
+
+        }
+
+    }
+
+}
+
+struct ContentView: View {
+
+    @State private var name = ""
+
+    var body: some View {
+
+        Form {
+
+            TextField("Enter your name", text: $name)
+
+            Text("Your name is \(name)")
+
+        }
+
+    }
+
+}
+
+struct ContentView: View {
+
+    
+
+    let students = ["Harry", "Hermione", "Ron"]
+
+    @State private var selectedStudent = "Harry"
+
+    
+
+    var body: some View {. 
+
+        NavigationView {
+
+        Form {
+
+            Picker("Select your student", selection: $selectedStudent) {
+
+                ForEach(students, id: \.self){
+
+                    Text($0)
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+}
+
+
+struct ContentView: View {
+
+    var body: some View {
+
+        NavigationView {
+
+            Form {
+
+                Section {
+
+                    Text("test")
+
+                }
+
+            }
+
+            //.navigationTitle("SwiftUI")
+
+            //.navigationBarTitleDisplayMode(.inline)
+
+        }
+
+    }
+
+}
+
+struct ContentView: View {
+
+    @State var temp = ""
+
+    var body: some View {
+
+        VStack {
+
+            TextField("Type Temperature: ", text: $temp)
+
+                .padding()
+
+            Text("\(cal())")
+
+                .foregroundColor(.red)
+
+        }
+
+    }
+
+    
+
+    func cal() -> String {
+
+        let temp2 = Int(temp) ?? 0
+
+        let cal = (temp2 * 9)/5 + 32
+
+        return "\(cal)"
+
+    }
+
+}
+
+
+
+import SwiftUI
+
+
+
+var name = "Taeeun"
+
+let character = "Jessica"
+
+
+
+let num = 5
+
+print(num)
+
+print(name,"\n")
+
+
+
+    //IF Operator
+
+let age = 23
+
+if (age < 18){
+
+    print("You are underage.")
+
+} else {
+
+    print("You are of legal age.")
+
+}
+
+
+
+let canIVote = age > 18 ? "Yes" : "No"
+
+print("Can I vote? \(canIVote)\n")
+
+
+
+let yes = true
+
+let no = false
+
+
+
+//AND Operator
+
+let a = (yes && no)
+
+print("AND of yes and no is \(a)")
+
+
+
+    //OR Operator
+
+let b = (yes || no)
+
+print("OR of yes and no is \(b)")
+
+
+
+    //Gegenteil
+
+print("The opposite of true is \(!true)\n")
+
+
+
+    //Menu-Auswahl
+
+let menuItemNumber = 1
+
+switch(menuItemNumber){
+
+case 1:
+
+print("Open profile page")
+
+break
+
+case 2:
+
+print("Open settings page")
+
+break
+
+default:
+
+print("Invalid option")
+
+}
+
+let menuItemNumber2 = 2
+
+switch(menuItemNumber2){
+
+case 1:
+
+    print("Open profile page")
+
+    break
+
+case 2:
+
+    print("Open settings page")
+
+    break
+
+default:
+
+    print("Invalid option")
+
+}
+
+let menuItemNumber3 = 3
+
+switch(menuItemNumber3){
+
+case 1:
+
+    print("Open profile page")
+
+    break
+
+case 2:
+
+    print("Open settings page")
+
+    break
+
+default:
+
+    print("Invalid option\n")
+
+}
+
+
+
+//Loop
+
+//var sum = 1
+
+//while(sum <= 10){
+
+//    sum += 1
+
+//    print(sum)
+
+//}
+
+//
+
+//var sum2 = 1
+
+//repeat {sum2 += 1
+
+//print(sum2)
+
+//} 
+
+//while(sum2 <= 10)
+
+
+
+
+
+//Checkpoint 1
+
+
+
+let tempCelsius = 25
+
+var tempFahrenheit = ((tempCelsius * 9)/5) + 32
+
+
+
+print("\(tempCelsius)°C")
+
+print("\(tempFahrenheit)°F")
+
