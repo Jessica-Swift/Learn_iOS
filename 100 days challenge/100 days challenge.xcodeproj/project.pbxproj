@@ -7,38 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CCBF47527DF368F007DED54 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF46527DF368E007DED54 /* MemorizeApp.swift */; };
-		4CCBF47627DF368F007DED54 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF46527DF368E007DED54 /* MemorizeApp.swift */; };
-		4CCBF47727DF368F007DED54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF46627DF368E007DED54 /* ContentView.swift */; };
-		4CCBF47827DF368F007DED54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCBF46627DF368E007DED54 /* ContentView.swift */; };
-		4CCBF47927DF368F007DED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBF46727DF368F007DED54 /* Assets.xcassets */; };
-		4CCBF47A27DF368F007DED54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBF46727DF368F007DED54 /* Assets.xcassets */; };
-		4CF9E9DC27E30C520012DF78 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E9DB27E30C520012DF78 /* MemoryGame.swift */; };
-		4CF9E9DD27E30C520012DF78 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E9DB27E30C520012DF78 /* MemoryGame.swift */; };
-		4CF9E9DF27E30EF80012DF78 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E9DE27E30EF80012DF78 /* EmojiMemoryGame.swift */; };
-		4CF9E9E027E30EF80012DF78 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF9E9DE27E30EF80012DF78 /* EmojiMemoryGame.swift */; };
+		4C54CE4D27EBC838000D96BB /* _00_days_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C54CE3D27EBC835000D96BB /* _00_days_challengeApp.swift */; };
+		4C54CE4E27EBC838000D96BB /* _00_days_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C54CE3D27EBC835000D96BB /* _00_days_challengeApp.swift */; };
+		4C54CE4F27EBC838000D96BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C54CE3E27EBC835000D96BB /* ContentView.swift */; };
+		4C54CE5027EBC838000D96BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C54CE3E27EBC835000D96BB /* ContentView.swift */; };
+		4C54CE5127EBC838000D96BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C54CE3F27EBC838000D96BB /* Assets.xcassets */; };
+		4C54CE5227EBC838000D96BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C54CE3F27EBC838000D96BB /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4CCBF46527DF368E007DED54 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		4CCBF46627DF368E007DED54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4CCBF46727DF368F007DED54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CCBF46C27DF368F007DED54 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CCBF47227DF368F007DED54 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CCBF47427DF368F007DED54 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		4CF9E9DB27E30C520012DF78 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
-		4CF9E9DE27E30EF80012DF78 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		4C54CE3D27EBC835000D96BB /* _00_days_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _00_days_challengeApp.swift; sourceTree = "<group>"; };
+		4C54CE3E27EBC835000D96BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C54CE3F27EBC838000D96BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C54CE4427EBC838000D96BB /* 100 days challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 days challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C54CE4A27EBC838000D96BB /* 100 days challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "100 days challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CCBF46927DF368F007DED54 /* Frameworks */ = {
+		4C54CE4127EBC838000D96BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CCBF46F27DF368F007DED54 /* Frameworks */ = {
+		4C54CE4727EBC838000D96BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,100 +41,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4CCBF45F27DF368D007DED54 = {
+		4C54CE3727EBC835000D96BB = {
 			isa = PBXGroup;
 			children = (
-				4CCBF46427DF368E007DED54 /* Shared */,
-				4CCBF47327DF368F007DED54 /* macOS */,
-				4CCBF46D27DF368F007DED54 /* Products */,
+				4C54CE3C27EBC835000D96BB /* Shared */,
+				4C54CE4527EBC838000D96BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4CCBF46427DF368E007DED54 /* Shared */ = {
+		4C54CE3C27EBC835000D96BB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4CCBF46527DF368E007DED54 /* MemorizeApp.swift */,
-				4CCBF46627DF368E007DED54 /* ContentView.swift */,
-				4CF9E9DB27E30C520012DF78 /* MemoryGame.swift */,
-				4CF9E9DE27E30EF80012DF78 /* EmojiMemoryGame.swift */,
-				4CCBF46727DF368F007DED54 /* Assets.xcassets */,
+				4C54CE3D27EBC835000D96BB /* _00_days_challengeApp.swift */,
+				4C54CE3E27EBC835000D96BB /* ContentView.swift */,
+				4C54CE3F27EBC838000D96BB /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		4CCBF46D27DF368F007DED54 /* Products */ = {
+		4C54CE4527EBC838000D96BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CCBF46C27DF368F007DED54 /* Memorize.app */,
-				4CCBF47227DF368F007DED54 /* Memorize.app */,
+				4C54CE4427EBC838000D96BB /* 100 days challenge.app */,
+				4C54CE4A27EBC838000D96BB /* 100 days challenge.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4CCBF47327DF368F007DED54 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				4CCBF47427DF368F007DED54 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CCBF46B27DF368F007DED54 /* Memorize (iOS) */ = {
+		4C54CE4327EBC838000D96BB /* 100 days challenge (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CCBF47D27DF368F007DED54 /* Build configuration list for PBXNativeTarget "Memorize (iOS)" */;
+			buildConfigurationList = 4C54CE5527EBC838000D96BB /* Build configuration list for PBXNativeTarget "100 days challenge (iOS)" */;
 			buildPhases = (
-				4CCBF46827DF368F007DED54 /* Sources */,
-				4CCBF46927DF368F007DED54 /* Frameworks */,
-				4CCBF46A27DF368F007DED54 /* Resources */,
+				4C54CE4027EBC838000D96BB /* Sources */,
+				4C54CE4127EBC838000D96BB /* Frameworks */,
+				4C54CE4227EBC838000D96BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Memorize (iOS)";
-			productName = "Memorize (iOS)";
-			productReference = 4CCBF46C27DF368F007DED54 /* Memorize.app */;
+			name = "100 days challenge (iOS)";
+			productName = "100 days challenge (iOS)";
+			productReference = 4C54CE4427EBC838000D96BB /* 100 days challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CCBF47127DF368F007DED54 /* Memorize (macOS) */ = {
+		4C54CE4927EBC838000D96BB /* 100 days challenge (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CCBF48027DF368F007DED54 /* Build configuration list for PBXNativeTarget "Memorize (macOS)" */;
+			buildConfigurationList = 4C54CE5827EBC838000D96BB /* Build configuration list for PBXNativeTarget "100 days challenge (macOS)" */;
 			buildPhases = (
-				4CCBF46E27DF368F007DED54 /* Sources */,
-				4CCBF46F27DF368F007DED54 /* Frameworks */,
-				4CCBF47027DF368F007DED54 /* Resources */,
+				4C54CE4627EBC838000D96BB /* Sources */,
+				4C54CE4727EBC838000D96BB /* Frameworks */,
+				4C54CE4827EBC838000D96BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Memorize (macOS)";
-			productName = "Memorize (macOS)";
-			productReference = 4CCBF47227DF368F007DED54 /* Memorize.app */;
+			name = "100 days challenge (macOS)";
+			productName = "100 days challenge (macOS)";
+			productReference = 4C54CE4A27EBC838000D96BB /* 100 days challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4CCBF46027DF368D007DED54 /* Project object */ = {
+		4C54CE3827EBC835000D96BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4CCBF46B27DF368F007DED54 = {
+					4C54CE4327EBC838000D96BB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					4CCBF47127DF368F007DED54 = {
+					4C54CE4927EBC838000D96BB = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4CCBF46327DF368D007DED54 /* Build configuration list for PBXProject "Memorize" */;
+			buildConfigurationList = 4C54CE3B27EBC835000D96BB /* Build configuration list for PBXProject "100 days challenge" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,63 +131,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 4CCBF45F27DF368D007DED54;
-			productRefGroup = 4CCBF46D27DF368F007DED54 /* Products */;
+			mainGroup = 4C54CE3727EBC835000D96BB;
+			productRefGroup = 4C54CE4527EBC838000D96BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CCBF46B27DF368F007DED54 /* Memorize (iOS) */,
-				4CCBF47127DF368F007DED54 /* Memorize (macOS) */,
+				4C54CE4327EBC838000D96BB /* 100 days challenge (iOS) */,
+				4C54CE4927EBC838000D96BB /* 100 days challenge (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4CCBF46A27DF368F007DED54 /* Resources */ = {
+		4C54CE4227EBC838000D96BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCBF47927DF368F007DED54 /* Assets.xcassets in Resources */,
+				4C54CE5127EBC838000D96BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CCBF47027DF368F007DED54 /* Resources */ = {
+		4C54CE4827EBC838000D96BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CCBF47A27DF368F007DED54 /* Assets.xcassets in Resources */,
+				4C54CE5227EBC838000D96BB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CCBF46827DF368F007DED54 /* Sources */ = {
+		4C54CE4027EBC838000D96BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF9E9DC27E30C520012DF78 /* MemoryGame.swift in Sources */,
-				4CCBF47727DF368F007DED54 /* ContentView.swift in Sources */,
-				4CCBF47527DF368F007DED54 /* MemorizeApp.swift in Sources */,
-				4CF9E9DF27E30EF80012DF78 /* EmojiMemoryGame.swift in Sources */,
+				4C54CE4F27EBC838000D96BB /* ContentView.swift in Sources */,
+				4C54CE4D27EBC838000D96BB /* _00_days_challengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CCBF46E27DF368F007DED54 /* Sources */ = {
+		4C54CE4627EBC838000D96BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF9E9DD27E30C520012DF78 /* MemoryGame.swift in Sources */,
-				4CCBF47827DF368F007DED54 /* ContentView.swift in Sources */,
-				4CCBF47627DF368F007DED54 /* MemorizeApp.swift in Sources */,
-				4CF9E9E027E30EF80012DF78 /* EmojiMemoryGame.swift in Sources */,
+				4C54CE5027EBC838000D96BB /* ContentView.swift in Sources */,
+				4C54CE4E27EBC838000D96BB /* _00_days_challengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4CCBF47B27DF368F007DED54 /* Debug */ = {
+		4C54CE5327EBC838000D96BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		4CCBF47C27DF368F007DED54 /* Release */ = {
+		4C54CE5427EBC838000D96BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,7 +294,7 @@
 			};
 			name = Release;
 		};
-		4CCBF47E27DF368F007DED54 /* Debug */ = {
+		4C54CE5627EBC838000D96BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -337,8 +315,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JessicaKim.Memorize;
-				PRODUCT_NAME = Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = "JessicaKim.-00-days-challenge";
+				PRODUCT_NAME = "100 days challenge";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +324,7 @@
 			};
 			name = Debug;
 		};
-		4CCBF47F27DF368F007DED54 /* Release */ = {
+		4C54CE5727EBC838000D96BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -367,8 +345,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JessicaKim.Memorize;
-				PRODUCT_NAME = Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = "JessicaKim.-00-days-challenge";
+				PRODUCT_NAME = "100 days challenge";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,7 +355,7 @@
 			};
 			name = Release;
 		};
-		4CCBF48127DF368F007DED54 /* Debug */ = {
+		4C54CE5927EBC838000D96BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -397,15 +375,15 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JessicaKim.Memorize;
-				PRODUCT_NAME = Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = "JessicaKim.-00-days-challenge";
+				PRODUCT_NAME = "100 days challenge";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4CCBF48227DF368F007DED54 /* Release */ = {
+		4C54CE5A27EBC838000D96BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -425,8 +403,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = JessicaKim.Memorize;
-				PRODUCT_NAME = Memorize;
+				PRODUCT_BUNDLE_IDENTIFIER = "JessicaKim.-00-days-challenge";
+				PRODUCT_NAME = "100 days challenge";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -436,34 +414,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CCBF46327DF368D007DED54 /* Build configuration list for PBXProject "Memorize" */ = {
+		4C54CE3B27EBC835000D96BB /* Build configuration list for PBXProject "100 days challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCBF47B27DF368F007DED54 /* Debug */,
-				4CCBF47C27DF368F007DED54 /* Release */,
+				4C54CE5327EBC838000D96BB /* Debug */,
+				4C54CE5427EBC838000D96BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CCBF47D27DF368F007DED54 /* Build configuration list for PBXNativeTarget "Memorize (iOS)" */ = {
+		4C54CE5527EBC838000D96BB /* Build configuration list for PBXNativeTarget "100 days challenge (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCBF47E27DF368F007DED54 /* Debug */,
-				4CCBF47F27DF368F007DED54 /* Release */,
+				4C54CE5627EBC838000D96BB /* Debug */,
+				4C54CE5727EBC838000D96BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CCBF48027DF368F007DED54 /* Build configuration list for PBXNativeTarget "Memorize (macOS)" */ = {
+		4C54CE5827EBC838000D96BB /* Build configuration list for PBXNativeTarget "100 days challenge (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCBF48127DF368F007DED54 /* Debug */,
-				4CCBF48227DF368F007DED54 /* Release */,
+				4C54CE5927EBC838000D96BB /* Debug */,
+				4C54CE5A27EBC838000D96BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4CCBF46027DF368D007DED54 /* Project object */;
+	rootObject = 4C54CE3827EBC835000D96BB /* Project object */;
 }
