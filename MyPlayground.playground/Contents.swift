@@ -85,3 +85,9 @@ case .snow:
 case .unknown:
     print("Our forecast generator is broken!")
 }
+
+//ternary operator
+
+let names = ["Jayne", "Kaylee", "Mal"]
+let crewCount = names.isEmpty ? "No one" : "\(names.count) people"
+print(crewCount)
