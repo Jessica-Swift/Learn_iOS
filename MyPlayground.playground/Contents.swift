@@ -91,3 +91,57 @@ case .unknown:
 let names = ["Jayne", "Kaylee", "Mal"]
 let crewCount = names.isEmpty ? "No one" : "\(names.count) people"
 print(crewCount)
+
+
+//loops
+let platforms = ["iOS", "macOS", "tvOS", "watchOS"]
+
+for os in platforms {
+    print("Swift works great on \(os).")
+}
+
+for i in 1...12 {
+    print("5 x \(i) is \(5 * i)")
+}
+
+for i in 1...12 {
+    print("The \(i) times table:")
+
+    for j in 1...12 {
+        print("  \(j) x \(i) is \(j * i)")
+    }
+
+    print() //als Space, leerer Print
+}
+
+
+let names2 = ["Sterling", "Cyril", "Lana", "Ray", "Pam"]
+
+for _ in names2 {
+    print("[CENSORED] is a secret agent!")
+}
+
+var lyric = "Haters gonna"
+
+for _ in 1...5 {
+    lyric += " hate"
+}
+
+print(lyric)
+
+var numbers = [1, 2, 3, 4, 5, 6]
+for number in numbers {
+    if number % 2 == 0 {
+        print(number)
+    }
+}
+
+var countdown = 10
+
+while countdown > 0 {
+    print("\(countdown)…")
+    countdown -= 1
+}
+
+print("Blast off!")
+
