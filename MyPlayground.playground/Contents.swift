@@ -145,3 +145,39 @@ while countdown > 0 {
 
 print("Blast off!")
 
+//continue
+
+let filenames = ["me.jpg", "work.txt", "sophie.jpg", "logo.psd"]
+
+for filename in filenames {
+    if filename.hasSuffix(".jpg") == false {
+        continue
+    }
+    print("Found picture: \(filename)")
+}
+
+
+//break
+
+let number1 = 4
+let number2 = 14
+var multiples = [Int]()
+
+for i in 1...100_000 {
+    if i.isMultiple(of: number1) && i.isMultiple(of: number2) {
+        multiples.append(i)
+
+        if multiples.count == 10 {
+            break
+        }
+    }
+}
+
+print(multiples)
+
+func showWelcome() {
+    print("Welcome to my app!")
+    print("By default This prints out a conversion")
+    print("chart from centimeters to inches, but you")
+    print("can also set a custom range if you want.")
+}
