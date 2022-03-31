@@ -276,3 +276,44 @@ do {
 } catch {
     print("There was an error.")
 }
+
+//closures
+
+let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+let sortedTeam = team.sorted()
+//print(sortedTeam)
+
+//func captainFirstSorted(name1: String, name2: String) -> Bool {
+//    if name1 == "Suzanne" {
+//        return true
+//    } else if name2 == "Suzanne" {
+//        return false
+//    }
+//
+//    return name1 < name2
+//}
+
+// -> Kombination aus sorted() von oben und der function cFS. Also nach der func sortiert
+//let captainFirstTeam = team.sorted(by: captainFirstSorted)
+//print(captainFirstTeam)
+
+//let captainFirstTeam = team.sorted(by: { (name1: String, name2: String) -> Bool in
+//    if name1 == "Suzanne" {
+//        return true
+//    } else if name2 == "Suzanne" {
+//        return false
+//    }
+//
+//    return name1 < name2
+//})
+
+// by: wurde entfernt und die Parameter kürzer zusammengefasst
+let captainFirstTeam = team.sorted { name1, name2 in
+    if name1 == "Suzanne" {
+        return true
+    } else if name2 == "Suzanne" {
+        return false
+    }
+
+    return name1 < name2
+}
