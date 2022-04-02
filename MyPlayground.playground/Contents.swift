@@ -279,8 +279,8 @@ do {
 
 //closures
 
-let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
-let sortedTeam = team.sorted()
+//let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+//let sortedTeam = team.sorted()
 //print(sortedTeam)
 
 //func captainFirstSorted(name1: String, name2: String) -> Bool {
@@ -308,12 +308,56 @@ let sortedTeam = team.sorted()
 //})
 
 // by: wurde entfernt und die Parameter kürzer zusammengefasst
-let captainFirstTeam = team.sorted { name1, name2 in
-    if name1 == "Suzanne" {
+//let captainFirstTeam = team.sorted { name1, name2 in
+//    if name1 == "Suzanne" {
+//        return true
+//    } else if name2 == "Suzanne" {
+//        return false
+//    }
+//
+//    return name1 < name2
+//}
+
+//let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+// 2 1, 3 1, 3 2, 4 1, 4 3
+//let captainFirstTeam = team.sorted(by: { (name1: String, name2: String) -> Bool in
+//    if name1 == "Suzanne" {
+//        return true
+//    } else if name2 == "Suzanne" {
+//        return false
+//    }
+//
+//    return name1 < name2
+//})
+//
+//print(captainFirstTeam)
+//
+//
+//let reverseTeam = team.sorted {
+//    print("test")
+//    print($0)
+//    print($1)
+//    return $0 > $1
+//}
+//print(reverseTeam)
+
+let team = ["Gloria", "Suzanne", "Piper", "Tiffany", "Tasha"]
+
+team.filter
+
+let reverseTeam = team.sorted {$0 > $1}
+print(reverseTeam)
+
+let reverseTeam2 = team.sorted()
+print(reverseTeam2)
+
+let captainFirstTeam = team.sorted {
+    if $0 == "Suzanne" {
         return true
-    } else if name2 == "Suzanne" {
+    } else if $1 == "Suzanne" {
         return false
     }
-
-    return name1 < name2
+print($0)
+    return $0 < $1
 }
+print(captainFirstTeam)
