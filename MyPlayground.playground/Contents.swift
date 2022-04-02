@@ -361,3 +361,99 @@ print($0)
     return $0 < $1
 }
 print(captainFirstTeam)
+
+
+//struct
+
+struct Employee {
+    let name: String
+    var vacationRemaining: Int
+
+   mutating func takeVacation(days: Int) {
+        if vacationRemaining > days {
+            vacationRemaining -= days
+            print("I'm going on vacation!")
+            print("Days remaining: \(vacationRemaining)")
+        } else {
+            print("Oops! There aren't enough days remaining.")
+        }
+    }
+}
+
+//init
+
+struct Player {
+    let name: String
+    let number: Int
+
+    init(name: String, number: Int) {
+        self.name = name
+        self.number = number
+    }
+}
+
+//class
+
+class Employeee {
+    let hours: Int
+
+    init(hours: Int) {
+        self.hours = hours
+    }
+}
+
+//inherit, childclass and parentclass
+class Developer: Employeee {
+    func work() {
+        print("I'm writing code for \(hours) hours.")
+    }
+}
+
+class Manager: Employeee {
+    func work() {
+        print("I'm going to meetings for \(hours) hours.")
+    }
+}
+
+//init class
+class Vehicle {
+    let isElectric: Bool
+
+    init(isElectric: Bool) {
+        self.isElectric = isElectric
+    }
+}
+
+class Car: Vehicle {
+    let isConvertible: Bool
+
+    init(isElectric: Bool, isConvertible: Bool) {
+        self.isConvertible = isConvertible
+        super.init(isElectric: isElectric)
+    }
+}
+
+//deinit
+class User {
+    let id: Int
+
+    init(id: Int) {
+        self.id = id
+        print("User \(id): I'm alive!")
+    }
+
+    deinit {
+        print("User \(id): I'm dead!")
+    }
+}
+
+//optionals
+
+var username: String? = nil
+
+if let unwrappedName = username {
+    print("We got a user: \(unwrappedName)")
+} else {
+    print("The optional was empty.")
+}
+
